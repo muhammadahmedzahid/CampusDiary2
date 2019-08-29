@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentMainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/profilepicture"
+        android:adjustViewBounds="true"
+        android:text="Maryam"
+        />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/name_background"
+        android:fontFamily="@font/robotoregular"
+        android:padding="10dp"
+        android:text="Maryam"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</FrameLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:background="@drawable/linear_views_student"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="Announcement"
+        android:textSize="20sp"
+        android:elevation="10dp"
+        android:textColor="@color/colorAccent"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            android:textSize="25sp"
+            android:elevation="10dp"
+            android:textColor="#efefef"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="16sp"
+            android:fontFamily="@font/robotoregular"
+            android:text="Updated 4 min ago"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/diary"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:background="@drawable/linear_views_student"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+
+            android:text="Diary"
+            android:elevation="10dp"
+            android:textColor="#F44336"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            android:textSize="25sp"
+            android:elevation="10dp"
+            android:textColor="#efefef"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="16sp"
+            android:fontFamily="@font/robotoregular"
+            android:text="Updated 1 hour ago"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:background="@drawable/linear_views_student"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Events"
+            android:textSize="20sp"
+            android:elevation="10dp"
+            android:textColor="#EE222020"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            android:textSize="25sp"
+            android:elevation="10dp"
+            android:textColor="#efefef"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="16sp"
+            android:fontFamily="@font/robotoregular"
+            android:text="Updated 2 days ago"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

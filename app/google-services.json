@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "679450053931",
+    "firebase_url": "https://campusdiary-1c8ca.firebaseio.com",
+    "project_id": "campusdiary-1c8ca",
+    "storage_bucket": "campusdiary-1c8ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679450053931:android:5d81a6e9df3ef15b",
+        "android_client_info": {
+          "package_name": "com.ahmed.campusdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679450053931-j0l7745nt6cmtvk1fsbotoho78t2jacv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmed.campusdiary",
+            "certificate_hash": "3a9ed15d38093fe6266057da771d4ff4cf56d359"
+          }
+        },
+        {
+          "client_id": "679450053931-79brhfur32l99udkubaa7cqphpeqh3mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB77fmX8q8ZnWIHIy-CMA6YpbSbRM1xdPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679450053931-79brhfur32l99udkubaa7cqphpeqh3mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
